@@ -6,6 +6,7 @@
     "license": "GPL-2.0",
     "config": {
         "allow-plugins": {
+            "aura/installer-default": true,
             "third-party/required-plugin": true,
             "my-organization/*": true,
             "unnecessary/plugin": true
