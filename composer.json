@@ -4,6 +4,13 @@
     "homepage": "https://demo.openemis.org/core",
     "type": "project",
     "license": "GPL-2.0",
+    "config": {
+        "allow-plugins": {
+            "third-party/required-plugin": true,
+            "my-organization/*": true,
+            "unnecessary/plugin": false
+        }
+    },
     "require": {
         "php": ">=5.4.16",
         "cakephp/cakephp": "3.3.*",
