@@ -7,6 +7,7 @@
     "config": {
         "allow-plugins": {
             "aura/installer-default": true,
+            "cakephp/plugin-installer": true,
             "third-party/required-plugin": true,
             "my-organization/*": true,
             "unnecessary/plugin": true
