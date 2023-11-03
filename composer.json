@@ -8,7 +8,7 @@
         "allow-plugins": {
             "third-party/required-plugin": true,
             "my-organization/*": true,
-            "unnecessary/plugin": false
+            "unnecessary/plugin": true
         }
     },
     "require": {
